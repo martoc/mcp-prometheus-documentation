@@ -68,7 +68,7 @@ run: ## Run the MCP server
 	@echo "==> Running MCP server..."
 	$(PYTHON) -m mcp_prometheus_documentation.server
 
-DOCKER_IMAGE := mcp-prometheus-documentation
+DOCKER_IMAGE := martoc/mcp-prometheus-documentation
 
 .PHONY: docker-build
 docker-build: ## Build Docker image
