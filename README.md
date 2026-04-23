@@ -100,7 +100,7 @@ For a locally built Docker image:
   "mcpServers": {
     "prometheus-documentation": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "mcp-prometheus-documentation"]
+      "args": ["run", "-i", "--rm", "martoc/mcp-prometheus-documentation:latest"]
     }
   }
 }
